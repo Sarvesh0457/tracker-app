@@ -1,0 +1,111 @@
+{
+  "video": "4_025_05.mp4",
+  "fps": 25.0,
+  "image_size": [
+    1280,
+    720
+  ],
+  "num_frames": 220,
+  "release_frame": null,
+  "detector": {
+    "backend": "ultralytics-YOLOv8",
+    "weights": "D:\\intership\\July\\Zone-div_V8m - Copy\\best.pt",
+    "conf": 0.3,
+    "imgsz": 1280,
+    "ball_class": 0,
+    "pose_gated_release": true
+  },
+  "detections": [
+    {
+      "frame": 71,
+      "u": 563.81,
+      "v": 246.37,
+      "radius_px": 5.17,
+      "conf": 0.884
+    },
+    {
+      "frame": 72,
+      "u": 569.68,
+      "v": 249.63,
+      "radius_px": 5.2,
+      "conf": 0.912
+    },
+    {
+      "frame": 73,
+      "u": 577.02,
+      "v": 256.01,
+      "radius_px": 5.26,
+      "conf": 0.854
+    },
+    {
+      "frame": 74,
+      "u": 584.76,
+      "v": 263.82,
+      "radius_px": 5.05,
+      "conf": 0.844
+    },
+    {
+      "frame": 75,
+      "u": 594.42,
+      "v": 274.82,
+      "radius_px": 4.86,
+      "conf": 0.922
+    },
+    {
+      "frame": 76,
+      "u": 603.81,
+      "v": 286.58,
+      "radius_px": 4.82,
+      "conf": 0.868
+    },
+    {
+      "frame": 77,
+      "u": 614.3,
+      "v": 300.82,
+      "radius_px": 4.95,
+      "conf": 0.9
+    },
+    {
+      "frame": 78,
+      "u": 625.15,
+      "v": 317.49,
+      "radius_px": 4.5,
+      "conf": 0.398
+    },
+    {
+      "frame": 79,
+      "u": 635.93,
+      "v": 334.31,
+      "radius_px": 4.73,
+      "conf": 0.868
+    },
+    {
+      "frame": 80,
+      "u": 647.86,
+      "v": 352.87,
+      "radius_px": 4.69,
+      "conf": 0.746
+    },
+    {
+      "frame": 81,
+      "u": 660.1,
+      "v": 350.38,
+      "radius_px": 4.16,
+      "conf": 0.868
+    },
+    {
+      "frame": 83,
+      "u": 682.77,
+      "v": 290.12,
+      "radius_px": 4.39,
+      "conf": 0.426
+    },
+    {
+      "frame": 87,
+      "u": 911.0,
+      "v": 17.93,
+      "radius_px": 4.06,
+      "conf": 0.813
+    }
+  ]
+}

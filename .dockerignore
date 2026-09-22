@@ -1,0 +1,29 @@
+# Backend transients
+backend/__pycache__/
+backend/**/__pycache__/
+backend/_tracker_work/
+backend/.pytest_cache/
+backend/tests/
+
+# Frontend transients — Dockerfile rebuilds dist from source
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+
+# Docs / samples — not needed at runtime
+docs/
+samples/
+
+# General
+**/.git/
+**/.gitignore
+**/.DS_Store
+**/.env
+**/.env.*
+.claude/
+*.log
+
+# Legacy staging folder (no longer used; the Dockerfile now copies
+# backend/worker/legacy and backend/models directly).
+vendor/

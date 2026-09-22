@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.7
+onnxruntime>=1.16
+opencv-python-headless>=4.8
+numpy>=1.24
+scipy>=1.10
+imageio-ffmpeg>=0.4  # bundled ffmpeg for H.264 re-encode when ffmpeg is not on PATH
+google-cloud-storage>=2.10  # GCSStorage backend; safe to skip in local dev
+pytest>=7

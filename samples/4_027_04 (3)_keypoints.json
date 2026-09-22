@@ -1,0 +1,66 @@
+{
+  "video": "4_027_04 (3).mp4",
+  "frame_index": 0,
+  "image_size": [
+    1280,
+    720
+  ],
+  "points": [
+    {
+      "name": "popping_striker_leg",
+      "uv": [
+        521,
+        317
+      ]
+    },
+    {
+      "name": "popping_striker_off",
+      "uv": [
+        823,
+        318
+      ]
+    },
+    {
+      "name": "popping_nonstriker_leg",
+      "uv": [
+        461,
+        548
+      ]
+    },
+    {
+      "name": "popping_nonstriker_off",
+      "uv": [
+        844,
+        554
+      ]
+    },
+    {
+      "name": "stump_base_striker",
+      "uv": [
+        671,
+        308
+      ]
+    },
+    {
+      "name": "stump_base_nonstriker",
+      "uv": [
+        650,
+        572
+      ]
+    },
+    {
+      "name": "stump_top_striker",
+      "uv": [
+        675,
+        228
+      ]
+    },
+    {
+      "name": "stump_top_nonstriker",
+      "uv": [
+        651,
+        494
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - api/Dockerfile
+      - -t
+      - us-central1-docker.pkg.dev/$PROJECT_ID/tracker/api:v1
+      - .
+images:
+  - us-central1-docker.pkg.dev/$PROJECT_ID/tracker/api:v1
+options:
+  logging: CLOUD_LOGGING_ONLY

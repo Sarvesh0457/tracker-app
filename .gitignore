@@ -1,0 +1,43 @@
+# --- ML model weights (too large for git; document how to obtain) ---
+*.onnx
+*.pt
+*.pth
+*.engine
+*.weights
+
+# --- Job artifacts / user uploads (never source-controlled) ---
+backend/_tracker_work/
+_tracker_work/
+vendor/
+
+# --- Python bytecode / build ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Node / Vite build output ---
+node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# --- Secrets and local env ---
+.env
+.env.local
+.env.production.local
+.env.development.local
+frontend/.env.production
+frontend/.env.local
+
+# --- IDE / editor / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Scratchpad / temp / logs ---
+*.log
+_tmp/
+scratchpad/

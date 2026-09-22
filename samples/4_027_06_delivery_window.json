@@ -1,0 +1,74 @@
+{
+  "video": "4_027_06.mp4",
+  "first_frame": 340,
+  "last_frame": 347,
+  "num_detections": 8,
+  "score": 6.131375796436553,
+  "metrics": {
+    "n": 8,
+    "endpoint_dist_px": 668.1,
+    "total_step_px": 678.0,
+    "straightness": 0.985,
+    "coherence": 0.949,
+    "mean_conf": 0.446,
+    "avg_step_px": 96.9
+  },
+  "detections": [
+    {
+      "frame": 340,
+      "u": 1217.0,
+      "v": 477.0,
+      "radius_px": 2.0,
+      "conf": 0.626
+    },
+    {
+      "frame": 341,
+      "u": 1212.0,
+      "v": 478.0,
+      "radius_px": 2.0,
+      "conf": 0.631
+    },
+    {
+      "frame": 342,
+      "u": 1207.5,
+      "v": 478.5,
+      "radius_px": 2.5,
+      "conf": 0.435
+    },
+    {
+      "frame": 343,
+      "u": 1201.5,
+      "v": 479.0,
+      "radius_px": 2.25,
+      "conf": 0.389
+    },
+    {
+      "frame": 344,
+      "u": 1195.5,
+      "v": 480.0,
+      "radius_px": 2.25,
+      "conf": 0.341
+    },
+    {
+      "frame": 345,
+      "u": 1188.0,
+      "v": 481.0,
+      "radius_px": 2.0,
+      "conf": 0.388
+    },
+    {
+      "frame": 346,
+      "u": 844.0,
+      "v": 217.0,
+      "radius_px": 2.0,
+      "conf": 0.354
+    },
+    {
+      "frame": 347,
+      "u": 688.0,
+      "v": 69.0,
+      "radius_px": 2.0,
+      "conf": 0.402
+    }
+  ]
+}

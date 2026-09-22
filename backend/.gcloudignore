@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+_tracker_work/
+tests/
+.venv/
+.env
+*.log
+worker/legacy/**/__pycache__/

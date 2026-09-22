@@ -1,0 +1,45 @@
+# Controls what `gcloud builds submit` uploads as the build context.
+# Independent of .gitignore (which excludes ML weights for GitHub's 100MB
+# limit — we DO need them in the container image).
+
+# Python transients
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Runtime scratch — never needed at build time
+backend/_tracker_work/
+backend/_local_work/
+backend/uploads/
+backend/jobs/
+backend/tests/
+
+# Frontend transients — Dockerfile rebuilds dist from source
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+
+# Docs / samples — not needed at runtime
+docs/
+samples/
+
+# Git / editor / logs
+.git/
+.gitignore
+**/.DS_Store
+.claude/
+*.log
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*serviceAccount*.json
+
+# Legacy staging folder (no longer used)
+vendor/
